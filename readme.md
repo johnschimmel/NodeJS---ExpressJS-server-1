@@ -19,7 +19,7 @@ In the same code directory run the following command
 Visit the web page at <http://localhost:5000>
 
 
-## Restart / stop server
+## Stop server
 
     Ctrl + C
 
