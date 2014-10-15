@@ -1,0 +1,27 @@
+<h1>{{title}}</h1>
+
+<hr>
+
+<p>Address object example</p>
+{{address.street}}<br>
+{{address.apt}}<br>
+{{address.city}}, {{address.state}} {{address.zipcode}}
+
+<hr>
+
+<p>Looping through the Colors array<p>
+{{#colors}}
+	<li><span style="color:{{.}}">{{.}}</span></li>
+{{/colors}}
+
+<hr>
+
+<p>Loop through animals array, display each item/object</p>
+
+{{#animals}}
+<div style="float:left; width:300px;">
+	<img src="{{image_url}}" style="width:250px;" />
+	<h3>{{name}}</h3>
+	<p>is a {{type}}</p>
+</div>
+{{/animals}}
